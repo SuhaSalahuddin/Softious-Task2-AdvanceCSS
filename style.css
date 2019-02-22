@@ -1,0 +1,9 @@
+h1, a{
+    background: rgb(198, 229, 240);
+    width: 50%;
+    padding: 1em;
+    margin: 0.5em;
+    border: 3px solid rgb(7, 92, 92);
+    color: teal;
+    display: inline; 
+}
