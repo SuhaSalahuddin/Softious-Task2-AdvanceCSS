@@ -7,3 +7,12 @@ h1, a{
     color: teal;
     display: inline; 
 }
+img{
+    float: right;
+    width: 10em;
+    height: 10em;;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
