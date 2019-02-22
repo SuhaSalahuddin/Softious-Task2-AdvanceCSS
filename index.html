@@ -4,18 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <title>CSS Positioning</title>
+
+    <style>
+    /* .wrapper:after{
+        content: "";
+        display: block;
+        clear: both;
+    } */
+    .row h2{
+        color: #999;
+        margin: 10px 0;
+        text-align: center;
+    }
+    img{
+        /* display: block;
+        margin: 0 auto; */
+        width: 100%;
+        height: 100%;
+    }
+    .row{
+        float: left;
+        background: #eee;
+        width: 29%;
+        margin: 1%;
+        padding: 1%;
+        height: 200px;
+    }
+
+    </style>
 </head>
 <body>
     <!--Floats  -->
-        <img src="p1.jpg" alt="picture-1">
-        <p>Lorizzle crazy cool sit phat, consectetuer adipiscing elizzle. Things sapien velizzle, the bizzle volutpat, aroused quis, for sure fo, arcu. Pellentesque eget tortizzle. Sed erizzle. Dang gangster that's the shizzle check it out turpizzle tempus tempor. Maurizzle yippiyo nibh and turpizzle. Mah nizzle in tortizzle. Pellentesque ass bow wow wow nisi. Crackalackin hac dope phat dictumst. Break it down dapibizzle. Curabitur shizzlin dizzle urna, pretium check out this, tellivizzle ac, eleifend vitae, nunc. I saw beyonce tizzles and my pizzle went to cryzzle aroused. Integizzle semper shizzlin dizzle fo shizzle my nizzle i'm in the shizzle.</p>
-        <br><br><br><br>
+        <br>
         <div class="wrapper">
-            <div class="box" style="background:red; float: left;"></div>
-            <div class="box" style="background:green; float: right;"></div>
-            <div class="box" style="background:blue; margin: 0 auto;"></div>
+            <div class="row">
+                <h2>This is an example</h2>
+            </div>
+            <div class="row">
+                <img src="p2.jpg" alt="p2">
+            </div>
+            <div class="row">
+                <h2>This is an example</h2>
+            </div>
         </div>
 
 </body>
